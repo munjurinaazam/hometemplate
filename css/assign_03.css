@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.header{
+    min-height: 100px;
+    background-color:white;
+    overflow: hidden;
+    font-family:serif;
+    opacity: 0.7;
+    
+}
+
+
+.wrapper{
+        width: 90%;
+    margin-top: 0px;
+}
+
+.logo{
+    width:10%;
+    float:left;
+    margin-top: 10px;
+    
+}
+.logo img{
+        width: 50%;
+        
+}
+.logo h5{
+   
+    /*font-size: 20px;*/
+
+
+    /* min-width: 40%; */
+    font-size: 12px;
+    float: right:;
+
+   
+   
+    
+    
+
+}
+.nav{
+    width:70%;
+    height:30px;
+    margin-top: 50px;
+    float:right;
+    
+   
+    
+    
+}
+.nav ul{
+    list-style: none;
+    
+}
+.nav ul li{
+    float:left;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 30px;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    margin-left: 14px;
+
+}
+.nav ul li a:hover{
+    color:brown;
+    
+}
+.banner{
+    background:url("../images/home-background-3.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-position: center;
+    overflow: hidden;
+    opacity:0.8;
+    
+    
+    
+    
+}
+
+.banner_text{
+   width:30%;
+   min-height:20px;
+
+   background-color: #696969c2;
+   margin-top: 200px;
+   margin-left:20px;
+   
+ 
+    
+}
+.banner_text h3{
+    font-size: 40px;
+    color: white;
+}
+.banner_text h1{
+    color:whitesmoke;
+    font-size: 38px;
+    
+}
+.banner_text p{
+     font-size: 18px;
+     font-weight: normal;
+     color:white;
+   
+    
+}
+.banner_text button{
+    background-color: black;
+    color:white;
+    padding: 10px 20px;
+    border:none;
+    border-radius:20%;
+    transition: 1s;
+    margin-top: 20px;
+    
+    
+}
+.banner_text button:hover{
+    
+    
+    color:yellow;
+    background-color: blue;
+    
+    
+}
+.service_section{
+    overflow: hidden;
+    padding: 90px 13px;
+    
+}
+.service1{
+   
+    width:30%;
+    padding-left: 30px;
+    float: left;
+    padding-bottom: 5px;
+    background-color: beige;
+    color:black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    
+    
+    
+    
+}
+
+.content{
+    overflow: hidden;
+   
+    
+    
+}
+.content h3{
+    margin-top:20px;
+    text-align: center;
+}
+.content{
+    overflow: hidden;
+    
+    
+}
+
+.content_img{
+    width:20%;
+    float:left;
+    margin-top:20px;
+    margin-left: 60px;
+    
+}
+.contenttext p{
+    
+    font-size:20px;
+    margin-top:200px;
+    text-align: center;
+    
+}
+.contenttext button{
+    background-color: skyblue;
+    padding: 10px 20px;
+    margin-top:20px;
+    margin-left:180px;
+    border:solid;
+    border-radius:20%;
+    transition: 1s
+    margin-bottom:40px;
+    
+}
+.contenttext button:hover{
+    color:blueviolet;
+}
+
+.footer_p{
+  
+    text-align: center;
+    color:brown;
+    font-weight: bold;
+    padding-bottom: 60px;
+}
+.social_links{
+    margin-top:10px;
+    margin-bottom: 60px;
+}
+.social_links .fa-facebook-f {
+    position: relative;
+    border: solid 1px white;
+    left:45%
+    
+    
+   
+}
+.social_links .fa-linkedin {
+    position: relative;
+    border: solid 1px white;
+    left:50%
+   
+}
+.social_links .fa-twitter {
+    position: relative;
+    border: solid 1px white;
+    left: 49%;
+   
+   
+}
+.social_links .fa-google-plus {
+    position: relative;
+    border: solid 1px white;
+    left: 49%;
+   
+   
+}
+.full{
+    padding:30px;
+    background-image:linear-gradient( #ffff003d,white,#4caf501c,#ffc0cb38);
+    
+}
+.fullweb{
+   min-height:100px;
+   min-width:80%;
+
+   left:60%;
+   border:3px solid #795548;
+   
